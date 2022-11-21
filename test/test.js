@@ -4,7 +4,7 @@ const app = require("../app.js");
 
 describe("GET /", function () {
   it("should respond with sup", function (done) {
-    request(app).get("/").expect("sup", done);
+    request(app).get("/").expect("<h1>sup</h1>", done);
   });
 });
 
