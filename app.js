@@ -9,7 +9,7 @@ app.get("/random", function (req, res) {
 });
 
 app.get("/", function (req, res) {
-  res.send("yo");
+  res.send("sup");
 });
 
 app.listen(process.env.PORT || 5000);
